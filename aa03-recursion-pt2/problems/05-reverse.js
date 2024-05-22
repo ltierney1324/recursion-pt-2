@@ -22,6 +22,16 @@ function reverse(str) {
 }
 
 
+// function reverse(str) {
+//   // Your code here 
+//   if (str === "") { //if string is empty, return the string.
+//     return str;
+//   }
+
+// //recursively take the first character and place it at the end
+//   return reverse(str.slice(1)) + str[0];
+// };
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
   module.exports = reverse;
